@@ -124,7 +124,6 @@ def insertionSort(drawWindow, ascending=True):
             drawList(drawWindow, {i: drawWindow.GREEN, i - 1: drawWindow.RED}, True)
             yield True
 
-    return lst
 
 
 def main() -> None:
